@@ -4,15 +4,8 @@ Auto file forward bot.
 Without Admin Permission in FROM_CHANNEL
 Only Give Permission In your Telegram Personal Channel
 
-```
-Please fork this repository don't import code
-Made with Python3
-(C) @DforDarkAngel
-Copyright permission under GNU GENERAL PUBLIC LICENSE
-```
-
 ### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jijinr/Frwdit)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/batman9910021/akforwardbot)
 
 ## HOW TO DEPLOY YOUTUBE TUTORIAL
 
@@ -20,9 +13,9 @@ Copyright permission under GNU GENERAL PUBLIC LICENSE
 
 Deploy in your vps
 ```sh
-git clone https://github.com/Jijinr/Frwdit
-cd Frwit
-pip3 install -r requirements.txt
+git clone https://github.com/batman9910021/akforwardbot
+cd akforwardbot
+pip install -r requirements.txt
 # <Create Variables appropriately>
 python3 main.py
 ```
@@ -39,9 +32,3 @@ python3 main.py
 * `FILTER_TYPE` Enter Filter type eg:- document or audio or photo or empty
 * `SKIP_NO` Enter File Skiping Number default number '0' 
 * `SESSION` Enter Pyrogram session string [String Generator](https://replit.com/@JijinR/PyroSessionString)
-
-
-### Credits
-
-* [Pyrogram](https://github.com/pyrogram/pyrogram)
-* `Special Thanks Dump Group Members`🤣
